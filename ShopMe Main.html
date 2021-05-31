@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ShopMe</title>
+	<link rel="stylesheet" type="text/css" href="ShopMeStyle.css">
+</head>	
+
+<body>
+  <header>
+    <div> class overlay"> </div>
+    <nav>
+    <li class="cart"> 
+      <a href="cart.html">
+        <ion-icon name= "basket"> </ion-icon> Cart <span>0</span>
+      </a>
+    </li>
+    </nav>
+  </header>
+
+ 
+	 <div class="slideshow-container">
+    
+        <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="BuyNow.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="BuyNow.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="BuyNow.png" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+
+<!-- ITEMS -->
+   <!-- <div class="categories"> -->
+        <div class="small-container">
+          <!-- <div class="row"> -->
+            <div class="col-3"> 
+              <img src="Iphone.png">
+               <h4>Iphone V.1</h4>
+               <p>$1280</p>
+
+              <button id="myBtn">Add to Cart</button>
+
+              <div id="myModal" class="modal">
+
+               <!-- Modal content1 -->
+              <div class="modal-content">
+               <span class="close">&times;</span>
+               <p><h4>Iphone V.2</h4>
+               <p>$2280</p> </p>
+              </div> 
+             </div>
+            <div class="col-3"> 
+              <img src="Iphone.png">
+               <h4>Iphone V.2</h4>
+               <p>$280</p>
+               <button id="myBtn1"  >Add to Cart</button>
+              <div id="myModal1" class="modal">
+               <!-- Modal content1 -->
+              <div class="modal-content">
+               <span class="close">&times;</span>
+               <p><h4>Iphone V.2</h4>
+               <p>$280</p>  </p>
+              </div> 
+             </div>
+            <div class="col-3"> 
+              <img src="Iphone.png">
+               <h4>Iphone V.3</h4>
+               <p>$280</p>
+               <button id="myBtn2" >Add to Cart</button>
+              <div id="myModal2" class="modal">
+               <!-- Modal content1 -->
+              <div class="modal-content">
+               <span class="close">&times;</span>
+               <p><h4>Iphone V.3</h4>
+               <p>$280</p> </p>
+              </div> 
+             </div>
+             <div class="col-3"> 
+              <img src="Iphone.png">
+               <h4>Iphone V.4</h4>
+               <p>$280</p>
+               <button id="myBtn3" >Add to Cart</button>
+              <div id="myModal3" class="modal">
+               <!-- Modal content1 -->
+              <div class="modal-content">
+               <span class="close">&times;</span>
+               <p><h4>Iphone V.4</h4>
+               <p>$280</p> </p>
+              </div> 
+             </div>
+            </div>
+        </div>
+    </div>
+
+<!-- Stop Here -->
+
+<script src="ShopMeJs.js"></script>
+
+</body>
+
+</html>
